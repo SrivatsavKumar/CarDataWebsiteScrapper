@@ -1,6 +1,7 @@
 import Mercedes
 import BMW
 import Chevrolet
+import Acura
 
 class Main:
     #Get class dynamically for each name in car_websites
@@ -18,6 +19,7 @@ class Main:
     cars = {}
 
     car_websites = [
+        {"name": Acura, "url": "https://www.acura.com/tools/build-and-price-luxury-vehicles-selection-page"},
         {"name": Mercedes, "url": "https://www.mbusa.com/en/all-vehicles"},
         {"name": BMW, "url": "https://www.bmwusa.com/"},
         {"name": Chevrolet, "url": "https://www.chevrolet.com/"}
